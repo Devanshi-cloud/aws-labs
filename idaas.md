@@ -8,7 +8,7 @@ I define **IAM (Identity and Access Management)** as
 
 > **Giving the right person access to the right resource at the right time for the right reason.**
 
-Simple flow:
+Simple flow
 
 ```text
 Right User
