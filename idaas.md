@@ -18,7 +18,7 @@ Right Resource
 Right Permission
 ```
 
-Example:
+Example
 - Devanshi can access S3
 - Devanshi cannot delete EC2
 
@@ -30,10 +30,10 @@ That is IAM.
 
 **IDaaS = Identity as a Service**
 
-Meaning:
+Meaning
 I outsource identity management to cloud providers.
 
-Simple flow:
+Simple flow
 
 ```text
 User Login
@@ -86,7 +86,7 @@ This improves security.
 ## Disadvantages of Form Authentication
 
 ### 1. Too many accounts
-I need separate accounts everywhere:
+I need separate accounts everywhere
 - Gmail
 - Amazon
 - College portal
@@ -104,7 +104,7 @@ Not scalable.
 
 # 2. Active Directory (AD)
 
-I think of **Active Directory** as:
+I think of **Active Directory** as
 
 > Organization's central user database
 
@@ -132,7 +132,7 @@ Devanshi
 - stronger security
 - easier onboarding/offboarding
 
-Example:
+Example
 Add user once → gets access everywhere.
 
 ---
@@ -143,7 +143,7 @@ Meaning:
 
 > Login once, access many apps.
 
-Example:
+Example
 
 ```text
 Login to Google
@@ -181,7 +181,7 @@ Only one login needed.
 
 **Single point of failure**
 
-If SSO fails:
+If SSO fails
 all connected apps fail.
 
 Risky if not secured.
@@ -190,11 +190,11 @@ Risky if not secured.
 
 # 4. LDAP
 
-LDAP full form:
+LDAP full form
 
 **Lightweight Directory Access Protocol**
 
-Important:
+Important
 
 > LDAP is not a database.  
 > LDAP is a protocol.
@@ -213,7 +213,7 @@ Directory Server
 Response
 ```
 
-Runs over:
+Runs over
 - TCP/IP
 
 ---
@@ -222,10 +222,10 @@ Runs over:
 
 Outlook searching employee directory:
 
-Search:
+Search
 `Find Devanshi`
 
-Returns:
+Returns
 - email
 - department
 - phone
@@ -272,7 +272,7 @@ One dashboard controls all users.
 ---
 
 ## 2. Enhanced Security
-Supports:
+Supports
 - MFA
 - policies
 - role-based access
@@ -290,7 +290,7 @@ Example:
 
 # Final Understanding
 
-I use:
+I use
 - **Form Authentication** for simple login
 - **Active Directory** to store users
 - **LDAP** to access directory data
