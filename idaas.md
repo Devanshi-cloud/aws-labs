@@ -4,7 +4,7 @@
 
 ## What is IAM?
 
-I define **IAM (Identity and Access Management)** as:
+I define **IAM (Identity and Access Management)** as
 
 > **Giving the right person access to the right resource at the right time for the right reason.**
 
